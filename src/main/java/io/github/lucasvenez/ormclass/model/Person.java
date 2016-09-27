@@ -53,6 +53,15 @@ public class Person implements Serializable {
 
 	public Person() {}
 	
+	public Person(String fullname, City city){
+		this.fullname = fullname;
+		this.city = city;
+	}
+	
+	public Person(String fullname){
+		this.fullname = fullname;
+	}
+	
 	public Integer getIdPerson() {
 		return idPerson;
 	}
